@@ -3,6 +3,15 @@
   height: 170px;
   padding-left: 80px;
 
+  color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  position: fixed;
+width: 100vw;
+
   &__logo {
     img {
       height: 40px;
@@ -11,4 +20,116 @@
       margin: 15px 0 0 15px;
     }
   }
+  &__choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    .choices-title {
+      display: flex;
+      gap: 30px;
+    }
+    .choices-search {
+      width: 750px;
+      height: 60px;
+      background-color: white;
+      border-radius: 30px;
+      display: flex;
+      color: black;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      .part1 {
+        border-right: 1px solid rgb(214, 202, 202);
+        padding-right: 20px;
+      }
+
+      .part1:hover {
+        color: #ff385c;
+      }
+      .part2 {
+        border-right: 1px solid rgb(214, 202, 202);
+        padding-right: 20px;
+      }
+      .part2:hover {
+        color: #ff385c;
+      }
+      .part3 {
+        border-right: 1px solid rgb(214, 202, 202);
+        padding-right: 20px;
+      }
+      .part3:hover {
+        padding: 1px solid grey;
+        color: #ff385c;
+      }
+      .part4 {
+        border-right: 1px solid rgb(214, 202, 202);
+        padding-right: 20px;
+      }
+      .part4:hover {
+        padding: 1px solid grey;
+        color: #ff385c;
+      }
+      .part5 {
+        padding-left: 20px;
+        background-color: #ff385c;
+        color: white;
+        width: 65px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  &__choices-search{
+    input {
+      width: 500px;
+      height: 40px;
+      border-radius: 20px;
+
+    }
+    input:focus{
+      padding-left: 15px;
+    }
+    input::placeholder {
+      padding-left: 15px;
+font-style: italic;
+    }
+    i{
+      padding-left: 15px;
+      cursor: pointer;
+    }
+  }
+  &__last {
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    i {
+      font-size: 20px;
+    }
+    .header-login {
+      width: 70px;
+      height: 30px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      background-color: rgb(238, 227, 227);
+      color: black;
+      i {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.header.header-containers-active {
+  background-color: #fff;
+}
+.none {
+  display: none !important;
 }

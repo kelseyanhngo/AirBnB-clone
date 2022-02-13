@@ -3,3 +3,9 @@
   box-sizing: border-box;
   padding: 0;
 }
+.header.header-active {
+  background-color: #fff;
+}
+.none {
+  display: none !important;
+}

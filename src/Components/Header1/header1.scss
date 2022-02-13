@@ -1,0 +1,11 @@
+.header1-container{
+    display: flex;
+    background-color: aqua;
+    &__logo{
+        img{
+
+            width: 120px;
+            height: 50px;
+        }
+    }
+}
