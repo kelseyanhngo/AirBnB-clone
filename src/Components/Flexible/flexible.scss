@@ -1,5 +1,46 @@
 .flexible-container{
-    background-color: antiquewhite;
-width: 100vw;
+width: 99vw;
 height: 100vh;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+.flexible-background{
+
+    img{
+        width: 1140px;
+        height: 600px;
+        border-radius: 25px;
+
+    }
+}
+.flexible-title{
+    h3 {
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+        font-style: italic;
+    }
+ 
+}
+.flexible-button{
+
+    button {
+        width: 150px;
+        height: 60px;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: 19px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(rgb(225, 184, 241), rgb(102, 11, 46));
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        color: rgb(245, 238, 238);
+    }
+   
+    button:hover {
+        opacity: 0.9;
+    }
+}
 }

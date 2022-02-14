@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Header1 from "../Header1/header1";
 import "./header.scss";
 
 function Header(props) {
@@ -59,10 +58,9 @@ function Header(props) {
       </div>
 
       <div className="header-container__choices-search none">
-        {/* <input 
-        /> */}
+      
        <form class="search-container">
-      <input placeholder="Search here"/>
+      <input placeholder="Start your search "/>
       <label  for="search">
       <i class="fal fa-search"></i>
 

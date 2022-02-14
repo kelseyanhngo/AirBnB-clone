@@ -10,7 +10,7 @@
   align-items: center;
 
   position: fixed;
-width: 100vw;
+width: 99vw;
 
   &__logo {
     img {
@@ -36,13 +36,13 @@ width: 100vw;
       border-radius: 30px;
       display: flex;
       color: black;
-      gap: 30px;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       cursor: pointer;
       .part1 {
         border-right: 1px solid rgb(214, 202, 202);
         padding-right: 20px;
+        margin-left: 20px;
       }
 
       .part1:hover {
@@ -72,17 +72,18 @@ width: 100vw;
         color: #ff385c;
       }
       .part5 {
-        padding-left: 20px;
+        margin-right: 10px;
         background-color: #ff385c;
         color: white;
-        width: 65px;
+        width: 47px;
         height: 45px;
         display: flex;
         align-items: center;
         border-radius: 50px;
+        justify-content: center;
 
         i {
-          font-size: 22px;
+          font-size: 20px;
         }
       }
     }
@@ -132,4 +133,26 @@ font-style: italic;
 }
 .none {
   display: none !important;
+}
+
+// Animation for the search bar when scroll down
+
+  
+
+.header-container__choices-search {
+
+
+  animation: zoom-out 1s ease ;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }

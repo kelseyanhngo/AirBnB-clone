@@ -1,23 +1,17 @@
-import React, { useEffect } from 'react';
-import Flexible from '../../Components/Flexible/flexible';
-import Header from '../../Components/Header';
-import Header1 from '../../Components/Header1/header1';
-import './home.scss'
-
+import React from "react";
+import Flexible from "../../Components/Flexible/flexible";
+import Header from "../../Components/Header";
+import "./home.scss";
+import Insperation from './../../Components/Insperation/insperation';
 
 function Home(props) {
-
-
- 
-    return (
-        <div>
-           <Header/>
-           <Flexible/>
-           <div style={{height: '1000px'}}>
-
-           </div>
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      <Flexible />
+      <Insperation/>
+    </div>
+  );
 }
 
 export default Home;
