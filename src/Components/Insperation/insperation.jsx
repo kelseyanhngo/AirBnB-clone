@@ -1,4 +1,6 @@
 import React from 'react';
+import InsperationItem from '../InsperationItem';
+import InsperationList from '../InsperationList';
 import './insperation.scss'
 
 
@@ -33,10 +35,11 @@ function Insperation(props) {
     return (
         <div className='inperation-container'>
             <div className='insperation-title'>
-                <h4>
+                <h1>
                 Inspiration for your next trip
-                </h4>c
+                </h1>
 
+                <InsperationList insprationList = {insprationList} />
             </div>
         </div>
     );

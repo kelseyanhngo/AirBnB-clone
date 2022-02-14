@@ -1,0 +1,30 @@
+.insperationItem-container{
+    background-color: #de3151;
+    width: 340px;
+    height: 450px;
+    border-radius: 15px;
+    .inspe-pic{
+        img {
+            width: 340px;
+            border-radius: 15px 15px 0px 0px;
+        }
+    }
+    .inspe-title {
+        font-size: 25px;
+        font-weight: 700;
+
+        padding-left: 20px;
+        color: white;
+        padding-top: 15px;
+    }
+    .inspe-distance{
+        font-size: 19px;
+        font-style: italic;
+        padding-left: 20px;
+        color: white;
+        padding-top: 5px;
+
+
+
+    }
+}
