@@ -1,0 +1,28 @@
+.discover-container{
+    .discover-title{
+        font-size: 24px;
+        margin-left: 58px;
+        margin-bottom: 50px;
+    }
+}
+
+.discover-main{
+    display: flex;
+    justify-content: space-evenly;
+    img {
+        width: 710px;
+        height: 690px;
+        border-radius: 20px;
+
+        position: relative;
+        z-index: -9999;
+
+        opacity: 0.8;
+    }
+    &__left{
+        p {
+            position: absolute;
+        }
+    }
+ 
+}
