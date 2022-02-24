@@ -16,6 +16,8 @@ flex-direction: column;
     }
 }
 .flexible-title{
+    padding-top: 20px;
+    padding-bottom: 10px;
     h3 {
         color: white;
         font-size: 48px;
@@ -33,10 +35,12 @@ flex-direction: column;
         border-radius: 50px;
         font-size: 19px;
         font-weight: 600;
-        background: -webkit-linear-gradient(rgb(225, 184, 241), rgb(102, 11, 46));
+        background-color: rgb(255, 255, 255);
+        color: black;
+        // background: -webkit-linear-gradient(rgb(225, 184, 241), rgb(102, 11, 46));
         // -webkit-background-clip: text;
         // -webkit-text-fill-color: transparent;
-        color: rgb(245, 238, 238);
+       
     }
    
     button:hover {
