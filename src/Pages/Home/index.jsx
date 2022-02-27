@@ -3,6 +3,7 @@ import Flexible from "../../Components/Flexible/flexible";
 import Header from "../../Components/Header";
 import "./home.scss";
 import Insperation from "./../../Components/Insperation/insperation";
+import DestinationList from './../../Components/DestinationList/index';
 
 function Home(props) {
   return (
@@ -67,6 +68,9 @@ function Home(props) {
         <button>Ask a Superhost</button>
 
         </div>
+
+        {/* Destinations */}
+        <DestinationList/>
       </div>
     </div>
   );

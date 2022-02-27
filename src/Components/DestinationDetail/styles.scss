@@ -1,0 +1,18 @@
+.des-detail{
+    cursor: pointer;
+    &__title {
+        
+
+    }
+    &__location {
+        font-size: 15px;
+            font-style: italic;
+        
+    }
+}
+.des-detail:hover {
+   p{
+    background-color: rgb(231, 232, 233);
+    border-radius: 5px;
+   } 
+}
