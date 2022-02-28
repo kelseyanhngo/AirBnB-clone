@@ -4,6 +4,7 @@ import Header from "../../Components/Header";
 import "./home.scss";
 import Insperation from "./../../Components/Insperation/insperation";
 import DestinationList from './../../Components/DestinationList/index';
+import Footer from "../../Components/Footer";
 
 function Home(props) {
   return (
@@ -71,6 +72,9 @@ function Home(props) {
 
         {/* Destinations */}
         <DestinationList/>
+
+        {/* Footer */}
+        <Footer/>
       </div>
     </div>
   );
